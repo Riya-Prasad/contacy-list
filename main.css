@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;;
+	margin: 0;
+	color: #fff;
+}
+
+.container{
+	max-width: 428px;
+	margin: 0 auto;
+	background-color: #222831;
+	color: #fff;
+	font-weight: 600;
+	min-height: 100vh;
+}
+
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,83,91,1) 36%, rgba(0,212,255,1) 100%); 
+	padding: 2em 0;
+	align-items: center;
+}
+
+.contact-search{
+	font-size: 1em;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: 600;
+	background: transparent;
+	border-radius: 16px 16px;
+	outline: none;
+
+}
+
+.fa-plus-circle{
+	font-size: 1.5em;
+}
+
+.fa-plus-circle:hover{
+	color: #222831;
+}
+
+i{
+	font-size: 1em;
+}
+
+.contact-name{
+	font-size: 1.3em;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-y: auto;
+}
+
+
+hr{
+	border: 1px solid #214151;
+}
+
+
+.list_item{
+	list-style: none;
+}
+
+.relationship{
+	width: 6em;
+	text-align: center;
+	padding: .2em .3em;
+	border-radius: 15px 20px;
+	background-color: #008891;
+}
+
+
+.contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1em;
+	transition: 0.1s;
+}
+
+
+.contact-section:hover{
+	background-color: #0dceda;
+}
+
+.text{
+	padding-left: 1em;
+}
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
